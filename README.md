@@ -1,12 +1,12 @@
 
-# 🌱 Agronomic Machine Learning Pipeline
+# Agronomic Machine Learning Pipeline
 
 This project implements a complete machine learning pipeline on **agronomic data**, focusing on predicting agricultural parameters such as water consumption and crop yield.  
 It combines **data preprocessing**, **model training**, and **hyperparameter optimization** using **Scikit-learn** and **Pandas**.
 
 ---
 
-## 📌 Objectives
+##  Objectives
 - Build a robust **data ingestion pipeline** for agronomic datasets (CSV, Excel).
 - Perform **data cleaning, renaming, and fusion** for consistent preprocessing.
 - Train baseline models:
@@ -17,7 +17,7 @@ It combines **data preprocessing**, **model training**, and **hyperparameter opt
 ---
 
 
-## ⚙️ Pipeline Overview
+##  Pipeline Overview
 1. **LoadData.py** → Load raw datasets and verify integrity.  
 2. **Renommage.py** → Standardize and clean column names.  
 3. **CleanFusion.py** → Handle missing values, duplicates, and merge datasets.  
@@ -29,7 +29,7 @@ It combines **data preprocessing**, **model training**, and **hyperparameter opt
 
 ---
 
-## 📊 Models & Metrics
+## Models & Metrics
 - **Random Forest Regressor**: interpretable model with feature importance analysis.  
 - **MLP Regressor**: neural network for capturing nonlinear relationships.  
 
